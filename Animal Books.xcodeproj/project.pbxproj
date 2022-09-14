@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0148D81428D181D60096BD99 /* Stickers StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0148D81328D181D60096BD99 /* Stickers StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0148D81828D181D60096BD99 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 0148D81728D181D60096BD99 /* Stickers.xcstickers */; };
+		0148D81928D181D60096BD99 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 0148D81728D181D60096BD99 /* Stickers.xcstickers */; };
+		019E9A7228CBF8B90037242B /* Animal_BooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9A7128CBF8B90037242B /* Animal_BooksApp.swift */; };
+		019E9A7428CBF8B90037242B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9A7328CBF8B90037242B /* ContentView.swift */; };
+		019E9A7628CBF8BA0037242B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019E9A7528CBF8BA0037242B /* Assets.xcassets */; };
+		019E9A7928CBF8BA0037242B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019E9A7828CBF8BA0037242B /* Preview Assets.xcassets */; };
+		019E9A8A28CBFB200037242B /* gorilla.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 019E9A8028CBFB1F0037242B /* gorilla.mp4 */; };
+		019E9A8B28CBFB200037242B /* rhino.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 019E9A8128CBFB1F0037242B /* rhino.mp4 */; };
+		019E9A8C28CBFB200037242B /* lion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 019E9A8228CBFB1F0037242B /* lion.mp4 */; };
+		019E9A8D28CBFB200037242B /* elephant.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 019E9A8328CBFB1F0037242B /* elephant.mp4 */; };
+		019E9A8E28CBFB200037242B /* cheetah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 019E9A8428CBFB1F0037242B /* cheetah.mp4 */; };
+		019E9A8F28CBFB200037242B /* giraffe.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 019E9A8528CBFB1F0037242B /* giraffe.mp4 */; };
+		019E9A9028CBFB200037242B /* lioness.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 019E9A8628CBFB1F0037242B /* lioness.mp4 */; };
+		019E9A9128CBFB200037242B /* ostrich.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 019E9A8728CBFB1F0037242B /* ostrich.mp4 */; };
+		019E9A9228CBFB200037242B /* zebra.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 019E9A8828CBFB1F0037242B /* zebra.mp4 */; };
+		019E9A9328CBFB200037242B /* hippo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 019E9A8928CBFB200037242B /* hippo.mp4 */; };
+		019E9A9928CBFB5E0037242B /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 019E9A9528CBFB5E0037242B /* locations.json */; };
+		019E9A9A28CBFB5E0037242B /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 019E9A9628CBFB5E0037242B /* covers.json */; };
+		019E9A9B28CBFB5E0037242B /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 019E9A9728CBFB5E0037242B /* videos.json */; };
+		019E9A9C28CBFB5E0037242B /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 019E9A9828CBFB5E0037242B /* animals.json */; };
+		019E9AA028CBFDD80037242B /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9A9F28CBFDD80037242B /* VideoListView.swift */; };
+		019E9AA228CBFDE40037242B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9AA128CBFDE40037242B /* MapView.swift */; };
+		019E9AA428CBFDFF0037242B /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9AA328CBFDFF0037242B /* GalleryView.swift */; };
+		019E9AA628CBFE6B0037242B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9AA528CBFE6B0037242B /* MainView.swift */; };
+		019E9AA928CC007C0037242B /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9AA828CC007C0037242B /* CoverImageView.swift */; };
+		019E9AAC28CD1D450037242B /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9AAB28CD1D450037242B /* CoverImageModel.swift */; };
+		019E9AAF28CD1E710037242B /* CodableBundleExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9AAE28CD1E710037242B /* CodableBundleExtention.swift */; };
+		019E9AB328CD3C670037242B /* AnimalListitemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9AB228CD3C670037242B /* AnimalListitemView.swift */; };
+		019E9AB528CD3F050037242B /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9AB428CD3F050037242B /* AnimalModel.swift */; };
+		019E9AB728CD433E0037242B /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9AB628CD433E0037242B /* AnimalDetailView.swift */; };
+		019E9AB928CD46960037242B /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9AB828CD46960037242B /* HeadingView.swift */; };
+		019E9ABB28CD47830037242B /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9ABA28CD47830037242B /* InsetGalleryView.swift */; };
+		019E9ABD28CD49FC0037242B /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9ABC28CD49FC0037242B /* InsetFactView.swift */; };
+		019E9ABF28CD4B030037242B /* InsetDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9ABE28CD4B030037242B /* InsetDescriptionView.swift */; };
+		019E9AC128CD4C330037242B /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9AC028CD4C330037242B /* InsetMapView.swift */; };
+		019E9AC328CD4F730037242B /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9AC228CD4F730037242B /* ExternalWeblinkView.swift */; };
+		019E9AC528CD55D00037242B /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9AC428CD55D00037242B /* VideoModel.swift */; };
+		019E9AC728CD574F0037242B /* VideoListitemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9AC628CD574F0037242B /* VideoListitemView.swift */; };
+		019E9AC928CD5B730037242B /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9AC828CD5B730037242B /* VideoPlayerView.swift */; };
+		019E9ACC28CD5C2F0037242B /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9ACB28CD5C2F0037242B /* VideoPlayerHelper.swift */; };
+		019E9ACF28CD5C960037242B /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9ACE28CD5C960037242B /* CenterModifier.swift */; };
+		019E9AD128CD62C20037242B /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9AD028CD62C20037242B /* LocationModel.swift */; };
+		019E9AD528CD636F0037242B /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9AD428CD636F0037242B /* MapAnnotationView.swift */; };
+		019E9AD728CD66E10037242B /* MapOverRayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9AD628CD66E10037242B /* MapOverRayView.swift */; };
+		019E9AD928D06A1E0037242B /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9AD828D06A1E0037242B /* MotionAnimationView.swift */; };
+		019E9ADB28D17B230037242B /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9ADA28D17B230037242B /* AnimalGridItemView.swift */; };
+		019E9ADD28D17D940037242B /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E9ADC28D17D940037242B /* CreditsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0148D81528D181D60096BD99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 019E9A6628CBF8B90037242B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0148D81228D181D60096BD99;
+			remoteInfo = "Stickers StickerPackExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0148D81C28D181D60096BD99 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0148D81428D181D60096BD99 /* Stickers StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0148D81028D181D60096BD99 /* Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0148D81328D181D60096BD99 /* Stickers StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Stickers StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0148D81728D181D60096BD99 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "Stickers StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
+		019E9A6E28CBF8B90037242B /* Animals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		019E9A7128CBF8B90037242B /* Animal_BooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal_BooksApp.swift; sourceTree = "<group>"; };
+		019E9A7328CBF8B90037242B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		019E9A7528CBF8BA0037242B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		019E9A7828CBF8BA0037242B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		019E9A8028CBFB1F0037242B /* gorilla.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gorilla.mp4; sourceTree = "<group>"; };
+		019E9A8128CBFB1F0037242B /* rhino.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rhino.mp4; sourceTree = "<group>"; };
+		019E9A8228CBFB1F0037242B /* lion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion.mp4; sourceTree = "<group>"; };
+		019E9A8328CBFB1F0037242B /* elephant.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = elephant.mp4; sourceTree = "<group>"; };
+		019E9A8428CBFB1F0037242B /* cheetah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheetah.mp4; sourceTree = "<group>"; };
+		019E9A8528CBFB1F0037242B /* giraffe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = giraffe.mp4; sourceTree = "<group>"; };
+		019E9A8628CBFB1F0037242B /* lioness.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lioness.mp4; sourceTree = "<group>"; };
+		019E9A8728CBFB1F0037242B /* ostrich.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ostrich.mp4; sourceTree = "<group>"; };
+		019E9A8828CBFB1F0037242B /* zebra.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = zebra.mp4; sourceTree = "<group>"; };
+		019E9A8928CBFB200037242B /* hippo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hippo.mp4; sourceTree = "<group>"; };
+		019E9A9528CBFB5E0037242B /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		019E9A9628CBFB5E0037242B /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		019E9A9728CBFB5E0037242B /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
+		019E9A9828CBFB5E0037242B /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
+		019E9A9D28CBFC6C0037242B /* Animal-Books-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Animal-Books-Info.plist"; sourceTree = SOURCE_ROOT; };
+		019E9A9F28CBFDD80037242B /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		019E9AA128CBFDE40037242B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		019E9AA328CBFDFF0037242B /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		019E9AA528CBFE6B0037242B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		019E9AA828CC007C0037242B /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		019E9AAB28CD1D450037242B /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		019E9AAE28CD1E710037242B /* CodableBundleExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtention.swift; sourceTree = "<group>"; };
+		019E9AB228CD3C670037242B /* AnimalListitemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListitemView.swift; sourceTree = "<group>"; };
+		019E9AB428CD3F050037242B /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		019E9AB628CD433E0037242B /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		019E9AB828CD46960037242B /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
+		019E9ABA28CD47830037242B /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
+		019E9ABC28CD49FC0037242B /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
+		019E9ABE28CD4B030037242B /* InsetDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetDescriptionView.swift; sourceTree = "<group>"; };
+		019E9AC028CD4C330037242B /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
+		019E9AC228CD4F730037242B /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
+		019E9AC428CD55D00037242B /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		019E9AC628CD574F0037242B /* VideoListitemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListitemView.swift; sourceTree = "<group>"; };
+		019E9AC828CD5B730037242B /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		019E9ACB28CD5C2F0037242B /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		019E9ACE28CD5C960037242B /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
+		019E9AD028CD62C20037242B /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		019E9AD428CD636F0037242B /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		019E9AD628CD66E10037242B /* MapOverRayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOverRayView.swift; sourceTree = "<group>"; };
+		019E9AD828D06A1E0037242B /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		019E9ADA28D17B230037242B /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
+		019E9ADC28D17D940037242B /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		019E9A6B28CBF8B90037242B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		019E9A6528CBF8B90037242B = {
+			isa = PBXGroup;
+			children = (
+				0148D81728D181D60096BD99 /* Stickers.xcstickers */,
+				019E9A7028CBF8B90037242B /* Animal Books */,
+				019E9A6F28CBF8B90037242B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		019E9A6F28CBF8B90037242B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				019E9A6E28CBF8B90037242B /* Animals.app */,
+				0148D81028D181D60096BD99 /* Stickers.app */,
+				0148D81328D181D60096BD99 /* Stickers StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		019E9A7028CBF8B90037242B /* Animal Books */ = {
+			isa = PBXGroup;
+			children = (
+				019E9A9D28CBFC6C0037242B /* Animal-Books-Info.plist */,
+				019E9A9E28CBFD020037242B /* App */,
+				019E9AA728CC005E0037242B /* View */,
+				019E9AAA28CD1D1B0037242B /* Model */,
+				019E9A9428CBFB380037242B /* Data */,
+				019E9ACD28CD5C730037242B /* Modifier */,
+				019E9ACA28CD5C0A0037242B /* Helper */,
+				019E9AAD28CD1E4F0037242B /* Extention */,
+				019E9A7F28CBFAE60037242B /* Video */,
+				019E9A7528CBF8BA0037242B /* Assets.xcassets */,
+				019E9A7728CBF8BA0037242B /* Preview Content */,
+			);
+			path = "Animal Books";
+			sourceTree = "<group>";
+		};
+		019E9A7728CBF8BA0037242B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				019E9A7828CBF8BA0037242B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		019E9A7F28CBFAE60037242B /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				019E9A8428CBFB1F0037242B /* cheetah.mp4 */,
+				019E9A8328CBFB1F0037242B /* elephant.mp4 */,
+				019E9A8528CBFB1F0037242B /* giraffe.mp4 */,
+				019E9A8028CBFB1F0037242B /* gorilla.mp4 */,
+				019E9A8928CBFB200037242B /* hippo.mp4 */,
+				019E9A8228CBFB1F0037242B /* lion.mp4 */,
+				019E9A8628CBFB1F0037242B /* lioness.mp4 */,
+				019E9A8728CBFB1F0037242B /* ostrich.mp4 */,
+				019E9A8128CBFB1F0037242B /* rhino.mp4 */,
+				019E9A8828CBFB1F0037242B /* zebra.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		019E9A9428CBFB380037242B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				019E9A9828CBFB5E0037242B /* animals.json */,
+				019E9A9628CBFB5E0037242B /* covers.json */,
+				019E9A9528CBFB5E0037242B /* locations.json */,
+				019E9A9728CBFB5E0037242B /* videos.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		019E9A9E28CBFD020037242B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				019E9A7128CBF8B90037242B /* Animal_BooksApp.swift */,
+				019E9AA528CBFE6B0037242B /* MainView.swift */,
+				019E9A7328CBF8B90037242B /* ContentView.swift */,
+				019E9A9F28CBFDD80037242B /* VideoListView.swift */,
+				019E9AA128CBFDE40037242B /* MapView.swift */,
+				019E9AA328CBFDFF0037242B /* GalleryView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		019E9AA728CC005E0037242B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				019E9AB628CD433E0037242B /* AnimalDetailView.swift */,
+				019E9ADA28D17B230037242B /* AnimalGridItemView.swift */,
+				019E9ADC28D17D940037242B /* CreditsView.swift */,
+				019E9AA828CC007C0037242B /* CoverImageView.swift */,
+				019E9AB228CD3C670037242B /* AnimalListitemView.swift */,
+				019E9AB828CD46960037242B /* HeadingView.swift */,
+				019E9ABA28CD47830037242B /* InsetGalleryView.swift */,
+				019E9ABC28CD49FC0037242B /* InsetFactView.swift */,
+				019E9ABE28CD4B030037242B /* InsetDescriptionView.swift */,
+				019E9AC028CD4C330037242B /* InsetMapView.swift */,
+				019E9AC228CD4F730037242B /* ExternalWeblinkView.swift */,
+				019E9AC628CD574F0037242B /* VideoListitemView.swift */,
+				019E9AC828CD5B730037242B /* VideoPlayerView.swift */,
+				019E9AD428CD636F0037242B /* MapAnnotationView.swift */,
+				019E9AD628CD66E10037242B /* MapOverRayView.swift */,
+				019E9AD828D06A1E0037242B /* MotionAnimationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		019E9AAA28CD1D1B0037242B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				019E9AAB28CD1D450037242B /* CoverImageModel.swift */,
+				019E9AB428CD3F050037242B /* AnimalModel.swift */,
+				019E9AC428CD55D00037242B /* VideoModel.swift */,
+				019E9AD028CD62C20037242B /* LocationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		019E9AAD28CD1E4F0037242B /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				019E9AAE28CD1E710037242B /* CodableBundleExtention.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		019E9ACA28CD5C0A0037242B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				019E9ACB28CD5C2F0037242B /* VideoPlayerHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		019E9ACD28CD5C730037242B /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				019E9ACE28CD5C960037242B /* CenterModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0148D80F28D181D60096BD99 /* Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0148D82028D181D60096BD99 /* Build configuration list for PBXNativeTarget "Stickers" */;
+			buildPhases = (
+				0148D80E28D181D60096BD99 /* Resources */,
+				0148D81C28D181D60096BD99 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0148D81628D181D60096BD99 /* PBXTargetDependency */,
+			);
+			name = Stickers;
+			productName = Stickers;
+			productReference = 0148D81028D181D60096BD99 /* Stickers.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		0148D81228D181D60096BD99 /* Stickers StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0148D81F28D181D60096BD99 /* Build configuration list for PBXNativeTarget "Stickers StickerPackExtension" */;
+			buildPhases = (
+				0148D81128D181D60096BD99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stickers StickerPackExtension";
+			productName = "Stickers StickerPackExtension";
+			productReference = 0148D81328D181D60096BD99 /* Stickers StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+		019E9A6D28CBF8B90037242B /* Animal Books */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019E9A7C28CBF8BA0037242B /* Build configuration list for PBXNativeTarget "Animal Books" */;
+			buildPhases = (
+				019E9A6A28CBF8B90037242B /* Sources */,
+				019E9A6B28CBF8B90037242B /* Frameworks */,
+				019E9A6C28CBF8B90037242B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Animal Books";
+			productName = "Animal Books";
+			productReference = 019E9A6E28CBF8B90037242B /* Animals.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		019E9A6628CBF8B90037242B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0148D80F28D181D60096BD99 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					0148D81228D181D60096BD99 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					019E9A6D28CBF8B90037242B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 019E9A6928CBF8B90037242B /* Build configuration list for PBXProject "Animal Books" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 019E9A6528CBF8B90037242B;
+			productRefGroup = 019E9A6F28CBF8B90037242B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				019E9A6D28CBF8B90037242B /* Animal Books */,
+				0148D80F28D181D60096BD99 /* Stickers */,
+				0148D81228D181D60096BD99 /* Stickers StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0148D80E28D181D60096BD99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0148D81928D181D60096BD99 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0148D81128D181D60096BD99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0148D81828D181D60096BD99 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019E9A6C28CBF8B90037242B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019E9A9928CBFB5E0037242B /* locations.json in Resources */,
+				019E9A8B28CBFB200037242B /* rhino.mp4 in Resources */,
+				019E9A9B28CBFB5E0037242B /* videos.json in Resources */,
+				019E9A7928CBF8BA0037242B /* Preview Assets.xcassets in Resources */,
+				019E9A9028CBFB200037242B /* lioness.mp4 in Resources */,
+				019E9A8D28CBFB200037242B /* elephant.mp4 in Resources */,
+				019E9A9328CBFB200037242B /* hippo.mp4 in Resources */,
+				019E9A8A28CBFB200037242B /* gorilla.mp4 in Resources */,
+				019E9A9A28CBFB5E0037242B /* covers.json in Resources */,
+				019E9A9C28CBFB5E0037242B /* animals.json in Resources */,
+				019E9A8C28CBFB200037242B /* lion.mp4 in Resources */,
+				019E9A9228CBFB200037242B /* zebra.mp4 in Resources */,
+				019E9A7628CBF8BA0037242B /* Assets.xcassets in Resources */,
+				019E9A8F28CBFB200037242B /* giraffe.mp4 in Resources */,
+				019E9A9128CBFB200037242B /* ostrich.mp4 in Resources */,
+				019E9A8E28CBFB200037242B /* cheetah.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		019E9A6A28CBF8B90037242B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019E9A7428CBF8B90037242B /* ContentView.swift in Sources */,
+				019E9AA628CBFE6B0037242B /* MainView.swift in Sources */,
+				019E9AA928CC007C0037242B /* CoverImageView.swift in Sources */,
+				019E9ABD28CD49FC0037242B /* InsetFactView.swift in Sources */,
+				019E9ADD28D17D940037242B /* CreditsView.swift in Sources */,
+				019E9AD728CD66E10037242B /* MapOverRayView.swift in Sources */,
+				019E9AAC28CD1D450037242B /* CoverImageModel.swift in Sources */,
+				019E9AA228CBFDE40037242B /* MapView.swift in Sources */,
+				019E9AB728CD433E0037242B /* AnimalDetailView.swift in Sources */,
+				019E9ABF28CD4B030037242B /* InsetDescriptionView.swift in Sources */,
+				019E9AC328CD4F730037242B /* ExternalWeblinkView.swift in Sources */,
+				019E9AB528CD3F050037242B /* AnimalModel.swift in Sources */,
+				019E9AAF28CD1E710037242B /* CodableBundleExtention.swift in Sources */,
+				019E9AC728CD574F0037242B /* VideoListitemView.swift in Sources */,
+				019E9AD528CD636F0037242B /* MapAnnotationView.swift in Sources */,
+				019E9AC528CD55D00037242B /* VideoModel.swift in Sources */,
+				019E9A7228CBF8B90037242B /* Animal_BooksApp.swift in Sources */,
+				019E9AA028CBFDD80037242B /* VideoListView.swift in Sources */,
+				019E9AB328CD3C670037242B /* AnimalListitemView.swift in Sources */,
+				019E9AD128CD62C20037242B /* LocationModel.swift in Sources */,
+				019E9ABB28CD47830037242B /* InsetGalleryView.swift in Sources */,
+				019E9AC128CD4C330037242B /* InsetMapView.swift in Sources */,
+				019E9ADB28D17B230037242B /* AnimalGridItemView.swift in Sources */,
+				019E9AA428CBFDFF0037242B /* GalleryView.swift in Sources */,
+				019E9AB928CD46960037242B /* HeadingView.swift in Sources */,
+				019E9ACC28CD5C2F0037242B /* VideoPlayerHelper.swift in Sources */,
+				019E9AD928D06A1E0037242B /* MotionAnimationView.swift in Sources */,
+				019E9ACF28CD5C960037242B /* CenterModifier.swift in Sources */,
+				019E9AC928CD5B730037242B /* VideoPlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0148D81628D181D60096BD99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0148D81228D181D60096BD99 /* Stickers StickerPackExtension */;
+			targetProxy = 0148D81528D181D60096BD99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0148D81A28D181D60096BD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86JD9D26N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stickers/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AFRICA;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koseB.Stickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0148D81B28D181D60096BD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86JD9D26N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stickers/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AFRICA;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koseB.Stickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0148D81D28D181D60096BD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86JD9D26N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Stickers StickerPackExtension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koseB.Stickers.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0148D81E28D181D60096BD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86JD9D26N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Stickers StickerPackExtension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koseB.Stickers.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		019E9A7A28CBF8BA0037242B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		019E9A7B28CBF8BA0037242B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		019E9A7D28CBF8BA0037242B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Animal Books/Preview Content\"";
+				DEVELOPMENT_TEAM = 86JD9D26N9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Animal-Books-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.koseB.Animal-Books";
+				PRODUCT_NAME = Animals;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		019E9A7E28CBF8BA0037242B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Animal Books/Preview Content\"";
+				DEVELOPMENT_TEAM = 86JD9D26N9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Animal-Books-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.koseB.Animal-Books";
+				PRODUCT_NAME = Animals;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0148D81F28D181D60096BD99 /* Build configuration list for PBXNativeTarget "Stickers StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0148D81D28D181D60096BD99 /* Debug */,
+				0148D81E28D181D60096BD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0148D82028D181D60096BD99 /* Build configuration list for PBXNativeTarget "Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0148D81A28D181D60096BD99 /* Debug */,
+				0148D81B28D181D60096BD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019E9A6928CBF8B90037242B /* Build configuration list for PBXProject "Animal Books" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019E9A7A28CBF8BA0037242B /* Debug */,
+				019E9A7B28CBF8BA0037242B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019E9A7C28CBF8BA0037242B /* Build configuration list for PBXNativeTarget "Animal Books" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019E9A7D28CBF8BA0037242B /* Debug */,
+				019E9A7E28CBF8BA0037242B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 019E9A6628CBF8B90037242B /* Project object */;
+}
